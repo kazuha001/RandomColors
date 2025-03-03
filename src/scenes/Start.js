@@ -111,6 +111,7 @@ export class Start extends Phaser.Scene {
 
         var totalLuck = playersLogs.reduce((sum, player) => sum + player.luck, 0);
 
+        setTimeout(() => {
             setInterval(() => {
             
             let boxResult = [RandomColors(), RandomColors(), RandomColors()]
@@ -269,6 +270,8 @@ export class Start extends Phaser.Scene {
              
 
             }, 3000) // Set Every 3 Second
+        }, 5000)
+            
 
         
         
