@@ -84,26 +84,32 @@ export class Start extends Phaser.Scene {
             if (playersLogs[0].lifePoints >= 20) {
                 alert("Congratulation too " + playersLogs[0].name)
                 this.game.destroy(true)
+                window.location.reload()
             }
             if (playersLogs[1].lifePoints >= 20) {
                 alert("Congratulation too " + playersLogs[1].name)
                 this.game.destroy(true)
+                window.location.reload()
             }
             if (playersLogs[2].lifePoints >= 20) {
                 alert("Congratulation too " + playersLogs[2].name)
                 this.game.destroy(true)
+                window.location.reload()
             }
             if (playersLogs[3].lifePoints >= 20) {
                 alert("Congratulation too " + playersLogs[3].name)
                 this.game.destroy(true)
+                window.location.reload()
             }
             if (playersLogs[4].lifePoints >= 20) {
                 alert("Congratulation too " + playersLogs[4].name)
                 this.game.destroy(true)
+                window.location.reload()
             }
             if (playersLogs[5].lifePoints >= 20) {
                 alert("Congratulation too " + playersLogs[5].name)
                 this.game.destroy(true)
+                window.location.reload()
             }
 
             
